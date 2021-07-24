@@ -1,0 +1,25 @@
+target
+target/
+target/**
+**/target
+*.class
+**.class
+.idea/**
+.project
+.settings/
+campus-photo-service.iml
+logs
+.classpath
+mvnw
+mvnw.cmd
+
+
+!campus-photo-service/.mvn/wrapper/maven-wrapper.jar
+!campus-photo-service/**/src/main/**/target/
+!campus-photo-service/**/src/test/**/target/
+
+### IntelliJ IDEA ###
+!campus-photo-service/.idea
+!campus-photo-service/*.iws
+!campus-photo-service/*.iml
+!campus-photo-service/*.ipr
